@@ -51,7 +51,9 @@ function handleSubmit(e) {
             .then((response) => {data = response})
             .catch((error) => console.log("Error: ", error));
             */
-            alert("Hello!");
+            alert("Enviado");
+            window.location = "./../../../index.html";
+
         } else {
             alert("Please enter a valid email!");
         }
