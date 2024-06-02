@@ -92,6 +92,7 @@ main {
 
 .prev:hover, .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
 }
 
 .dots {
@@ -150,6 +151,8 @@ main {
   background-color: white;
   margin: 0rem;
   padding: 12rem 0rem 10rem 0rem;
+  z-index: 10000;
+  scroll-margin-top: 26rem;
 }
 
 .ar-one-sans {
@@ -157,7 +160,6 @@ main {
   font-weight: bold;
   text-align: center;
   font-family: "AR One Sans", sans-serif;
-  font-optical-sizing: auto;
   font-variation-settings: "ARRR" 10;
   margin: 0rem 0rem 5rem 0rem;
 }
@@ -208,9 +210,14 @@ main {
     padding: 0rem 0rem 1.25rem 0rem;
   }
 
+  #sobre-nosotros {
+    scroll-margin-top: 0rem;
+  }
+
   #sobre-nosotros p {
     font-size: 2rem;
     padding: 0rem 1.75rem;
+    scroll-margin-top: 26rem;
   }
 }
 
@@ -247,6 +254,10 @@ main {
 
   .dots {
     padding: 0rem 0rem 1.25rem 0rem;
+  }
+
+  #sobre-nosotros {
+    scroll-margin-top: 0rem;
   }
 
   #sobre-nosotros p {
@@ -290,6 +301,10 @@ main {
     padding: 0rem 0rem 1.25rem 0rem;
   }
 
+  #sobre-nosotros {
+    scroll-margin-top: 0rem;
+  }
+
   #sobre-nosotros p {
     font-size: 2.25rem;
     padding: 0rem 5rem;
@@ -327,6 +342,10 @@ main {
     height: 80vh;
   }
 
+  #sobre-nosotros {
+    scroll-margin-top: 0rem;
+  }
+
   #sobre-nosotros p {
     font-size: 2.25rem;
     padding: 0rem 5rem;
@@ -344,7 +363,7 @@ main {
   #container {
     flex-direction: row;
     flex-wrap: nowrap;
-    margin: 0rem 0rem 0rem 0rem !important;
+    margin: 6.5rem 0rem 0rem 0rem !important;
   }
 
   .logo {
@@ -361,6 +380,10 @@ main {
   .carrouselContainer {
     width: 50%;
     height: 95vh;
+  }
+
+  #sobre-nosotros {
+    scroll-margin-top: 0rem;
   }
 
   #sobre-nosotros p {
@@ -385,6 +408,8 @@ main {
 
   .logo {
     width: 50%;
+    background-color: transparent;
+    margin: 0rem 0rem 0rem 0rem;
   }
   
   #imagen {
@@ -395,6 +420,10 @@ main {
   .carrouselContainer {
     width: 50%;
     height: 95vh;
+  }
+
+  #sobre-nosotros {
+    scroll-margin-top: 0rem;
   }
 
   #sobre-nosotros p {
